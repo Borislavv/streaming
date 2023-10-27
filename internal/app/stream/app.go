@@ -2,10 +2,10 @@ package stream
 
 import (
 	"context"
-	"github.com/Borislavv/video-streaming/internal/infrastructure/logger/stdout"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/repository/mongodb"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/server/ws"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/service/detector"
+	"github.com/Borislavv/video-streaming/internal/infrastructure/service/logger/stdout"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/service/reader"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/service/streamer"
 	"github.com/Borislavv/video-streaming/internal/infrastructure/service/streamer/action/handler"
