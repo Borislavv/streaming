@@ -2,7 +2,7 @@ package errors
 
 import (
 	"fmt"
-	"github.com/Borislavv/video-streaming/internal/infrastructure/logger"
+	"github.com/Borislavv/video-streaming/internal/infrastructure/service/logger"
 	"net/http"
 )
 
